@@ -1,0 +1,11 @@
+# Create venv in your project folder
+python -m venv .venv
+
+# Activate (Mac/Linux)
+source .venv/bin/activate
+
+# Activate (Windows)
+.venv\Scripts\activate
+
+pip install --upgrade pip
+pip install -r requirements.txt

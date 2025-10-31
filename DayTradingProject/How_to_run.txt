@@ -1,0 +1,14 @@
+source .venv/bin/activate
+
+cd "/Users/tay17/Documents/Day Trading Project"
+
+python exec/paper.py
+
+python exec/live.py
+
+Check if running (open in another terminal):
+tail -f logs/live_trades.csv
+
+# zsh/bash
+DRY_RUN=false
+python3 test_maker_probe_v4.py --n 5 --usd 100 --wait 45 --cancel-after

@@ -1,0 +1,10 @@
+{
+  "ema_fast": 20,
+  "ema_slow": 50,
+  "atr_window": 14,
+  "sl_mult": 1.0,
+  "tp_mult": 1.5,
+  "gate_threshold": 0.55,
+  "rl_enabled": true,
+  "rl_lookback": 60
+}

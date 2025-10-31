@@ -1,0 +1,13 @@
+ccxt
+python-dotenv
+pandas
+pyarrow
+ta
+backtesting
+scikit-learn
+joblib
+loguru
+typer
+tenacity
+pydantic
+requests
